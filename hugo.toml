@@ -1,6 +1,6 @@
-baseURL = 'http://localhost:1313/'
+baseURL = "https://cll2.github.io/"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'paper'
+title = 'Facts and Feelings'
+theme = 'ananke'
 [permalinks]
   posts = "/posts/:slug/"
