@@ -1,6 +1,0 @@
-baseURL = "https://cll2.github.io/"
-languageCode = 'en-us'
-title = 'Facts and Feelings'
-theme = 'ananke'
-[permalinks]
-  posts = "/posts/:slug/"
