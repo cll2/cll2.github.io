@@ -12,14 +12,54 @@
       margin: auto;
       line-height: 1.6;
     }
+
     h1 {
       color: #3c3c3c;
+    }
+
+    .post {
+        margin: 20px;
+        padding: 20px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .post h2 {
+        font-size: 24px;
+    }
+
+    .excerpt {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .tags {
+        margin-top: 10px;
+    }
+
+    .tag {
+        display: inline-block;
+        background-color: #f9f9f9;
+        padding: 2px 6px;
+        margin-right: 6px;
+        border-radius: 4px;
+        font-size: 12px;
+        color: #888;
+        font-style: italic;
     }
   </style>
 </head>
 <body>
-  <h1>Facts and Feelings</h1>
-  <p>A blog about testing the boundaries of career change, growth, and gratitude.</p>
-  <p>Thanks for being here. More soon.</p>
+    <h1>Facts and Feelings</h1>
+
+    <a href = "learn-to-code.html" class ="post-link">
+        <div class="post">
+            <h2>Learning to code amid the "Learn to Code" movement</h2>
+            <p class="excerpt">It was 2022. I had made some temporary progress away from healthcare and was getting a little too comfortable...</p>
+            <div class="tags">
+                <span class="tag">#wfh</span>
+                <span class="tag">#remote</span>
+            </div>
+        </div>
+    </a>
 </body>
 </html>
